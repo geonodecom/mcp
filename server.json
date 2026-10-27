@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.geonode/mcp",
+  "title": "Geonode MCP Server",
+  "description": "Web data for agents. Extract web pages, crawl websites, discover URLs, and search the web.",
+  "version": "1.0.0",
+  "websiteUrl": "https://geonode.com",
+  "repository": {
+    "url": "https://github.com/geonodecom/mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://geonode.com/favicons/logo-dark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://geonode.com/favicons/logo-light.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "theme": "dark"
+    },
+    {
+      "src": "https://mcp.geonode.com/mcp/icons/geonode-mark-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.geonode.com/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "Geonode API key. Optional: without it only extract is available, with anonymous limits.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
