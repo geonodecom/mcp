@@ -3,7 +3,7 @@
   "name": "com.geonode/mcp",
   "title": "Geonode MCP Server",
   "description": "Web data for agents. Extract web pages, crawl websites, discover URLs, and search the web.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://geonode.com",
   "repository": {
     "url": "https://github.com/geonodecom/mcp",
@@ -11,7 +11,15 @@
   },
   "icons": [
     {
-      "src": "https://geonode.com/favicons/logo-dark.svg",
+      "src": "https://mcp.geonode.com/mcp/icons/geonode-mark-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://mcp.geonode.com/mcp/icons/geonode-mark-dark.svg",
       "mimeType": "image/svg+xml",
       "sizes": [
         "any"
@@ -19,19 +27,12 @@
       "theme": "light"
     },
     {
-      "src": "https://geonode.com/favicons/logo-light.svg",
+      "src": "https://mcp.geonode.com/mcp/icons/geonode-mark-light.svg",
       "mimeType": "image/svg+xml",
       "sizes": [
         "any"
       ],
       "theme": "dark"
-    },
-    {
-      "src": "https://mcp.geonode.com/mcp/icons/geonode-mark-256.png",
-      "mimeType": "image/png",
-      "sizes": [
-        "256x256"
-      ]
     }
   ],
   "remotes": [

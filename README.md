@@ -6,7 +6,7 @@ Give MCP-compatible AI assistants web search and content collection tools. Extra
 
 **[Try Geonode for free](https://app.geonode.com/sign-up)**
 
-[Integrations page](https://geonode.com/integrations) · [Geonode API docs](https://docs.geonode.com/docs/scraper-api) · [MCP setup guide](https://docs.geonode.com/docs/scraper-api/guides/mcp/00_overview) · [View source on GitHub](https://github.com/geonodecom/mcp) · [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.geonode%2Fscraper/versions/latest)
+[Integrations page](https://geonode.com/integrations) · [Geonode API docs](https://docs.geonode.com/docs/scraper-api) · [MCP setup guide](https://docs.geonode.com/docs/scraper-api/guides/mcp/00_overview) · [View source on GitHub](https://github.com/geonodecom/mcp) · [Official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.geonode%2Fmcp/versions/latest)
 
 <!-- BEGIN README NAV -->
 [Connect](#connect) · [Example: extract a page and answer with sources](#example-extract-a-page-and-answer-with-sources)
